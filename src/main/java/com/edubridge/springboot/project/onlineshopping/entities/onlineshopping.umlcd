@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_RjHAkCjaEeyxg_dx_auymQ">
+  <modelElement href="onlineshopping.uml#_RqurgCjaEeyxg_dx_auymQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RvmkcCjaEeyxg_dx_auymQ" sourceAnchor="144.0,0.0" targetAnchor="144.0,230.0" target="_RvnLgCjaEeyxg_dx_auymQ" source="_Rv9w0CjaEeyxg_dx_auymQ">
+    <modelElement href="onlineshopping.uml#_RtqDsSjaEeyxg_dx_auymQ"/>
+    <nameVisual xmi:id="_RvmkcSjaEeyxg_dx_auymQ" text="">
+      <visualProperties xmi:id="_R7JtICjaEeyxg_dx_auymQ" position="2.2218640327969013,-75.21764841879127"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RvmkcijaEeyxg_dx_auymQ" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="onlineshopping.uml#_RtfroyjaEeyxg_dx_auymQ"/>
+      <visualProperties xmi:id="_R7JGEijaEeyxg_dx_auymQ" position="-10.565082114773702,-74.93007999917967"/>
+      <visibility xmi:id="_RvmkcyjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvmkdCjaEeyxg_dx_auymQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RvmkdSjaEeyxg_dx_auymQ" aggregationKind="NONE" name="">
+      <modelElement href="onlineshopping.uml#_RtqDsCjaEeyxg_dx_auymQ"/>
+      <visualProperties xmi:id="_R7JtISjaEeyxg_dx_auymQ" position="3.400360265718433,-118.09337947199913"/>
+      <visibility xmi:id="_RvmkdijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvmkdyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rv1N8CjaEeyxg_dx_auymQ" sourceAnchor="0.0,126.0" targetAnchor="145.0,184.0" target="_Rv4RQCjaEeyxg_dx_auymQ" source="_RvsrECjaEeyxg_dx_auymQ">
+    <modelElement href="onlineshopping.uml#_RtoOgijaEeyxg_dx_auymQ"/>
+    <bendpoints xmi:id="_R7H38CjaEeyxg_dx_auymQ" sourceX="-583" targetY="181"/>
+    <nameVisual xmi:id="_Rv11ACjaEeyxg_dx_auymQ" text="">
+      <visualProperties xmi:id="_R7JGECjaEeyxg_dx_auymQ" position="442.657261993037,-9.671744734067374"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rv11ASjaEeyxg_dx_auymQ" aggregationKind="NONE" name="products" navigable="true">
+      <modelElement href="onlineshopping.uml#_RtcoUCjaEeyxg_dx_auymQ"/>
+      <visualProperties xmi:id="_R7IfACjaEeyxg_dx_auymQ" position="-96.71581431718454,-20.654015408501436"/>
+      <visibility xmi:id="_Rv3DISjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv3DICjaEeyxg_dx_auymQ" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rv2cECjaEeyxg_dx_auymQ" aggregationKind="NONE" name="">
+      <modelElement href="onlineshopping.uml#_RtoOgCjaEeyxg_dx_auymQ"/>
+      <visualProperties xmi:id="_R7JGESjaEeyxg_dx_auymQ" position="360.6634152884325,160.41152997225583"/>
+      <visibility xmi:id="_Rv3qMSjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv3qMCjaEeyxg_dx_auymQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RvnLgCjaEeyxg_dx_auymQ" name="Login" associationsIn="_RvmkcCjaEeyxg_dx_auymQ">
+    <modelElement href="onlineshopping.uml#_RrPB0CjaEeyxg_dx_auymQ"/>
+    <visualProperties xmi:id="_RvnLgSjaEeyxg_dx_auymQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RvnLgijaEeyxg_dx_auymQ" name="Table">
+      <modelElement href="onlineshopping.uml#_RrSsMCjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RvnLgyjaEeyxg_dx_auymQ" name="JPA1StyledElement">
+      <modelElement href="onlineshopping.uml#_RrTTQCjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <visibility xmi:id="_RvnLhCjaEeyxg_dx_auymQ" label="+"/>
+    <attributes xmi:id="_RvnLhSjaEeyxg_dx_auymQ" name="loginId">
+      <modelElement href="onlineshopping.uml#_RtedgCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvnLhijaEeyxg_dx_auymQ" name="PrimaryKey">
+        <modelElement href="onlineshopping.uml#_RtedgSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvnLhyjaEeyxg_dx_auymQ" name="GeneratedValueMapping">
+        <modelElement href="onlineshopping.uml#_RtedgijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvnLiCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLiSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvnLiijaEeyxg_dx_auymQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvnLiyjaEeyxg_dx_auymQ" name="userName">
+      <modelElement href="onlineshopping.uml#_RtfEkCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvnLjCjaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_RtfroCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvnLjSjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLjijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvnLjyjaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvnLkCjaEeyxg_dx_auymQ" name="password">
+      <modelElement href="onlineshopping.uml#_RtfroSjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvnLkSjaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_RtfroijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvnLkijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLkyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvnLlCjaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvnLlSjaEeyxg_dx_auymQ" name="user">
+      <modelElement href="onlineshopping.uml#_RtfroyjaEeyxg_dx_auymQ"/>
+      <visibility xmi:id="_RvnLlijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLlyjaEeyxg_dx_auymQ" label="0..1" max="1"/>
+      <type xmi:id="_RvnLmCjaEeyxg_dx_auymQ" name="User">
+        <modelElement href="onlineshopping.uml#_Rrjx8CjaEeyxg_dx_auymQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RvnLmSjaEeyxg_dx_auymQ" name="Login">
+      <modelElement href="onlineshopping.uml#_RrT6UCjaEeyxg_dx_auymQ"/>
+      <keywords xmi:id="_RvnLmijaEeyxg_dx_auymQ" keyword="create"/>
+      <stereotypes xmi:id="_RvnLmyjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrT6UyjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvnLnCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLnSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvnLnijaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrUhYCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvnLnyjaEeyxg_dx_auymQ" name="Login">
+          <modelElement href="onlineshopping.uml#_RrPB0CjaEeyxg_dx_auymQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvnLoCjaEeyxg_dx_auymQ" name="hashCode">
+      <modelElement href="onlineshopping.uml#_RrUhYSjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvnLoSjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrUhYyjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvnLoijaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrVIcCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvnLoyjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLpCjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvnLpSjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrUhYijaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvnLpijaEeyxg_dx_auymQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvnLpyjaEeyxg_dx_auymQ" name="toString">
+      <modelElement href="onlineshopping.uml#_RrVIcijaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvnLqCjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrVIdCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvnLqSjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrVvgCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvnLqijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLqyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvnLrCjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrVIcyjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvnLrSjaEeyxg_dx_auymQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvnLrijaEeyxg_dx_auymQ" name="equals">
+      <modelElement href="onlineshopping.uml#_RtVTkCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvnLryjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RtVTkyjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvnLsCjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RtVTlCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvnLsSjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvnLsijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvnLsyjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RtVTkijaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvnLtCjaEeyxg_dx_auymQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RvnLtSjaEeyxg_dx_auymQ" name="obj">
+        <modelElement href="onlineshopping.uml#_RtVTkSjaEeyxg_dx_auymQ"/>
+        <cardinality xmi:id="_RvnLtijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+        <type xmi:id="_RvnLtyjaEeyxg_dx_auymQ" name="Object">
+          <modelElement href="onlineshopping.uml#_RtRCISjaEeyxg_dx_auymQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rv4RQCjaEeyxg_dx_auymQ" name="Cart" associationsIn="_Rv1N8CjaEeyxg_dx_auymQ">
+    <modelElement href="onlineshopping.uml#_RrFQ0CjaEeyxg_dx_auymQ"/>
+    <visualProperties xmi:id="_Rv4RQSjaEeyxg_dx_auymQ" position="-326.0,269.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rv4RQijaEeyxg_dx_auymQ" name="Table">
+      <modelElement href="onlineshopping.uml#_RrGe8SjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rv4RQyjaEeyxg_dx_auymQ" name="JPA1StyledElement">
+      <modelElement href="onlineshopping.uml#_RrHGACjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <visibility xmi:id="_Rv4RRCjaEeyxg_dx_auymQ" label="+"/>
+    <attributes xmi:id="_Rv4RRSjaEeyxg_dx_auymQ" name="cartId">
+      <modelElement href="onlineshopping.uml#_RtcBQCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv4RRijaEeyxg_dx_auymQ" name="PrimaryKey">
+        <modelElement href="onlineshopping.uml#_RtcBQSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv4RRyjaEeyxg_dx_auymQ" name="GeneratedValueMapping">
+        <modelElement href="onlineshopping.uml#_RtcBQijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv4RSCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv4RSSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Rv4RSijaEeyxg_dx_auymQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rv4RSyjaEeyxg_dx_auymQ" name="products">
+      <modelElement href="onlineshopping.uml#_RtcoUCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv4RTCjaEeyxg_dx_auymQ" name="FetchStrategy">
+        <modelElement href="onlineshopping.uml#_RtcoUijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv4RTSjaEeyxg_dx_auymQ" name="JoinTable">
+        <modelElement href="onlineshopping.uml#_RtdPYCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv4RTijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv4RTyjaEeyxg_dx_auymQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Rv4RUCjaEeyxg_dx_auymQ" name="Products">
+        <modelElement href="onlineshopping.uml#_RrW9oCjaEeyxg_dx_auymQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rv4RUSjaEeyxg_dx_auymQ" name="Cart">
+      <modelElement href="onlineshopping.uml#_RrI7MCjaEeyxg_dx_auymQ"/>
+      <keywords xmi:id="_Rv4RUijaEeyxg_dx_auymQ" keyword="create"/>
+      <stereotypes xmi:id="_Rv4RUyjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrJiQijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv4RVCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv4RVSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv4RVijaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrKJUCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv4RVyjaEeyxg_dx_auymQ" name="Cart">
+          <modelElement href="onlineshopping.uml#_RrFQ0CjaEeyxg_dx_auymQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rv4RWCjaEeyxg_dx_auymQ" name="hashCode">
+      <modelElement href="onlineshopping.uml#_RrKJUSjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv4RWSjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrKwYSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv4RWijaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrLXcCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv4RWyjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv4RXCjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv4RXSjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrKwYCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv4RXijaEeyxg_dx_auymQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rv4RXyjaEeyxg_dx_auymQ" name="toString">
+      <modelElement href="onlineshopping.uml#_RrLXcijaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv4RYCjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrL-gSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv4RYSjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrL-gijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv4RYijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv4RYyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv4RZCjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrL-gCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv4RZSjaEeyxg_dx_auymQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rv4RZijaEeyxg_dx_auymQ" name="equals">
+      <modelElement href="onlineshopping.uml#_RtTeYSjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv4RZyjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RtUFcCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv4RaCjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RtUFcSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv4RaSjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv4RaijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv4RayjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RtTeYyjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv4RbCjaEeyxg_dx_auymQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rv4RbSjaEeyxg_dx_auymQ" name="obj">
+        <modelElement href="onlineshopping.uml#_RtTeYijaEeyxg_dx_auymQ"/>
+        <cardinality xmi:id="_Rv4RbijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Rv4RbyjaEeyxg_dx_auymQ" name="Object">
+          <modelElement href="onlineshopping.uml#_RtRCISjaEeyxg_dx_auymQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rv9w0CjaEeyxg_dx_auymQ" name="User" associationsOut="_RvmkcCjaEeyxg_dx_auymQ">
+    <modelElement href="onlineshopping.uml#_Rrjx8CjaEeyxg_dx_auymQ"/>
+    <visualProperties xmi:id="_Rv9w0SjaEeyxg_dx_auymQ" position="30.0,315.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rv9w0ijaEeyxg_dx_auymQ" name="Table">
+      <modelElement href="onlineshopping.uml#_Rrm1QCjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rv9w0yjaEeyxg_dx_auymQ" name="JPA1StyledElement">
+      <modelElement href="onlineshopping.uml#_RrncUCjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <visibility xmi:id="_Rv9w1CjaEeyxg_dx_auymQ" label="+"/>
+    <attributes xmi:id="_Rv9w1SjaEeyxg_dx_auymQ" name="userId">
+      <modelElement href="onlineshopping.uml#_RtlLMCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv9w1ijaEeyxg_dx_auymQ" name="PrimaryKey">
+        <modelElement href="onlineshopping.uml#_RtlLMSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv9w1yjaEeyxg_dx_auymQ" name="GeneratedValueMapping">
+        <modelElement href="onlineshopping.uml#_RtlLMijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9w2CjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9w2SjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Rv9w2ijaEeyxg_dx_auymQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rv9w2yjaEeyxg_dx_auymQ" name="firstName">
+      <modelElement href="onlineshopping.uml#_RtlyQCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv9w3CjaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_RtlyQSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9w3SjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9w3ijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Rv9w3yjaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rv9w4CjaEeyxg_dx_auymQ" name="lastName">
+      <modelElement href="onlineshopping.uml#_RtlyQijaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv9w4SjaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_RtmZUCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9w4ijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9w4yjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Rv9w5CjaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rv9w5SjaEeyxg_dx_auymQ" name="userPhone">
+      <modelElement href="onlineshopping.uml#_RtmZUSjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv9w5ijaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_RtmZUijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9w5yjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9w6CjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Rv9w6SjaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rv9w6ijaEeyxg_dx_auymQ" name="User">
+      <modelElement href="onlineshopping.uml#_RroDYCjaEeyxg_dx_auymQ"/>
+      <keywords xmi:id="_Rv9w6yjaEeyxg_dx_auymQ" keyword="create"/>
+      <stereotypes xmi:id="_Rv9w7CjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RroDYyjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9w7SjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9w7ijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv9w7yjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RroqcCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv9w8CjaEeyxg_dx_auymQ" name="User">
+          <modelElement href="onlineshopping.uml#_Rrjx8CjaEeyxg_dx_auymQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rv9w8SjaEeyxg_dx_auymQ" name="hashCode">
+      <modelElement href="onlineshopping.uml#_RroqcSjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv9w8ijaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrpRgCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv9w8yjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrpRgSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9w9CjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9w9SjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv9w9ijaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RroqcijaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv9w9yjaEeyxg_dx_auymQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rv9w-CjaEeyxg_dx_auymQ" name="toString">
+      <modelElement href="onlineshopping.uml#_RrpRgyjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv9w-SjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_Rrp4kSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv9w-ijaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrqfoCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9w-yjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9w_CjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv9w_SjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_Rrp4kCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv9w_ijaEeyxg_dx_auymQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rv9w_yjaEeyxg_dx_auymQ" name="equals">
+      <modelElement href="onlineshopping.uml#_RtZlACjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_Rv9xACjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RtZlAyjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rv9xASjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RtaMECjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Rv9xAijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_Rv9xAyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rv9xBCjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RtZlAijaEeyxg_dx_auymQ"/>
+        <type xmi:id="_Rv9xBSjaEeyxg_dx_auymQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rv9xBijaEeyxg_dx_auymQ" name="obj">
+        <modelElement href="onlineshopping.uml#_RtZlASjaEeyxg_dx_auymQ"/>
+        <cardinality xmi:id="_Rv9xByjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Rv9xCCjaEeyxg_dx_auymQ" name="Object">
+          <modelElement href="onlineshopping.uml#_RtRCISjaEeyxg_dx_auymQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RvsrECjaEeyxg_dx_auymQ" name="Products" associationsOut="_Rv1N8CjaEeyxg_dx_auymQ">
+    <modelElement href="onlineshopping.uml#_RrW9oCjaEeyxg_dx_auymQ"/>
+    <visualProperties xmi:id="_RvsrESjaEeyxg_dx_auymQ" position="402.0,508.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RvsrEijaEeyxg_dx_auymQ" name="Table">
+      <modelElement href="onlineshopping.uml#_RraoACjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RvsrEyjaEeyxg_dx_auymQ" name="JPA1StyledElement">
+      <modelElement href="onlineshopping.uml#_RrbPECjaEeyxg_dx_auymQ"/>
+    </stereotypes>
+    <visibility xmi:id="_RvsrFCjaEeyxg_dx_auymQ" label="+"/>
+    <attributes xmi:id="_RvsrFSjaEeyxg_dx_auymQ" name="productId">
+      <modelElement href="onlineshopping.uml#_Rtg5wCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvsrFijaEeyxg_dx_auymQ" name="PrimaryKey">
+        <modelElement href="onlineshopping.uml#_Rthg0CjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvsrFyjaEeyxg_dx_auymQ" name="GeneratedValueMapping">
+        <modelElement href="onlineshopping.uml#_Rthg0SjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrGCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrGSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvsrGijaEeyxg_dx_auymQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvsrGyjaEeyxg_dx_auymQ" name="productName">
+      <modelElement href="onlineshopping.uml#_RtiH4CjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvsrHCjaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_Rtiu8CjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrHSjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrHijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvsrHyjaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvsrICjaEeyxg_dx_auymQ" name="productCost">
+      <modelElement href="onlineshopping.uml#_Rtiu8SjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvsrISjaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_Rtiu8ijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrIijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrIyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvsrJCjaEeyxg_dx_auymQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvsrJSjaEeyxg_dx_auymQ" name="description">
+      <modelElement href="onlineshopping.uml#_RtjWACjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvsrJijaEeyxg_dx_auymQ" name="StyledElement">
+        <modelElement href="onlineshopping.uml#_RtjWASjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrJyjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrKCjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvsrKSjaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RvsrKijaEeyxg_dx_auymQ" name="Products">
+      <modelElement href="onlineshopping.uml#_Rrb2ICjaEeyxg_dx_auymQ"/>
+      <keywords xmi:id="_RvsrKyjaEeyxg_dx_auymQ" keyword="create"/>
+      <stereotypes xmi:id="_RvsrLCjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrcdMijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrLSjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrLijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvsrLyjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrcdMyjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvsrMCjaEeyxg_dx_auymQ" name="Products">
+          <modelElement href="onlineshopping.uml#_RrW9oCjaEeyxg_dx_auymQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvsrMSjaEeyxg_dx_auymQ" name="hashCode">
+      <modelElement href="onlineshopping.uml#_RrcdNCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvsrMijaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrdEQSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvsrMyjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrdEQijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrNCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrNSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvsrNijaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrdEQCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvsrNyjaEeyxg_dx_auymQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvsrOCjaEeyxg_dx_auymQ" name="toString">
+      <modelElement href="onlineshopping.uml#_RrdrUCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvsrOSjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrdrUijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvsrOijaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrdrUyjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrOyjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrPCjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvsrPSjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrdrUSjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvsrPijaEeyxg_dx_auymQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvsrPyjaEeyxg_dx_auymQ" name="equals">
+      <modelElement href="onlineshopping.uml#_RtWhsCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvsrQCjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RtXIwCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvsrQSjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RtXIwSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvsrQijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvsrQyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvsrRCjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RtWhsijaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvsrRSjaEeyxg_dx_auymQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RvsrRijaEeyxg_dx_auymQ" name="obj">
+        <modelElement href="onlineshopping.uml#_RtWhsSjaEeyxg_dx_auymQ"/>
+        <cardinality xmi:id="_RvsrRyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+        <type xmi:id="_RvsrSCjaEeyxg_dx_auymQ" name="Object">
+          <modelElement href="onlineshopping.uml#_RtRCISjaEeyxg_dx_auymQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RvxjkCjaEeyxg_dx_auymQ" name="ProductsFromView">
+    <modelElement href="onlineshopping.uml#_RrfggCjaEeyxg_dx_auymQ"/>
+    <visualProperties xmi:id="_RvxjkSjaEeyxg_dx_auymQ" position="751.0,438.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RvxjkijaEeyxg_dx_auymQ" label="+"/>
+    <attributes xmi:id="_RvxjkyjaEeyxg_dx_auymQ" name="productId">
+      <modelElement href="onlineshopping.uml#_Rtj9ECjaEeyxg_dx_auymQ"/>
+      <visibility xmi:id="_RvxjlCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjlSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvxjlijaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvxjlyjaEeyxg_dx_auymQ" name="productName">
+      <modelElement href="onlineshopping.uml#_Rtj9ESjaEeyxg_dx_auymQ"/>
+      <visibility xmi:id="_RvxjmCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjmSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvxjmijaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvxjmyjaEeyxg_dx_auymQ" name="productCost">
+      <modelElement href="onlineshopping.uml#_RtkkICjaEeyxg_dx_auymQ"/>
+      <visibility xmi:id="_RvxjnCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjnSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvxjnijaEeyxg_dx_auymQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RvxjnyjaEeyxg_dx_auymQ" name="description">
+      <modelElement href="onlineshopping.uml#_RtkkISjaEeyxg_dx_auymQ"/>
+      <visibility xmi:id="_RvxjoCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjoSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <type xmi:id="_RvxjoijaEeyxg_dx_auymQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RvxjoyjaEeyxg_dx_auymQ" name="ProductsFromView">
+      <modelElement href="onlineshopping.uml#_RrgHkCjaEeyxg_dx_auymQ"/>
+      <keywords xmi:id="_RvxjpCjaEeyxg_dx_auymQ" keyword="create"/>
+      <stereotypes xmi:id="_RvxjpSjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrguoSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvxjpijaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjpyjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvxjqCjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrguoijaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvxjqSjaEeyxg_dx_auymQ" name="ProductsFromView">
+          <modelElement href="onlineshopping.uml#_RrfggCjaEeyxg_dx_auymQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvxjqijaEeyxg_dx_auymQ" name="hashCode">
+      <modelElement href="onlineshopping.uml#_RrguoyjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvxjqyjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RrhVsCjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvxjrCjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RrhVsSjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvxjrSjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjrijaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvxjryjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RrgupCjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvxjsCjaEeyxg_dx_auymQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvxjsSjaEeyxg_dx_auymQ" name="toString">
+      <modelElement href="onlineshopping.uml#_Rrh8wCjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvxjsijaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_Rrh8wijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvxjsyjaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_Rrh8wyjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvxjtCjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjtSjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvxjtijaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_Rrh8wSjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvxjtyjaEeyxg_dx_auymQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RvxjuCjaEeyxg_dx_auymQ" name="equals">
+      <modelElement href="onlineshopping.uml#_RtXv0CjaEeyxg_dx_auymQ"/>
+      <stereotypes xmi:id="_RvxjuSjaEeyxg_dx_auymQ" name="LegacyStyledElement">
+        <modelElement href="onlineshopping.uml#_RtYW4SjaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RvxjuijaEeyxg_dx_auymQ" name="Annotations">
+        <modelElement href="onlineshopping.uml#_RtYW4ijaEeyxg_dx_auymQ"/>
+      </stereotypes>
+      <visibility xmi:id="_RvxjuyjaEeyxg_dx_auymQ" label="+"/>
+      <cardinality xmi:id="_RvxjvCjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RvxjvSjaEeyxg_dx_auymQ">
+        <modelElement href="onlineshopping.uml#_RtYW4CjaEeyxg_dx_auymQ"/>
+        <type xmi:id="_RvxjvijaEeyxg_dx_auymQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RvxjvyjaEeyxg_dx_auymQ" name="obj">
+        <modelElement href="onlineshopping.uml#_RtXv0SjaEeyxg_dx_auymQ"/>
+        <cardinality xmi:id="_RvxjwCjaEeyxg_dx_auymQ" label="1" max="1" min="1"/>
+        <type xmi:id="_RvxjwSjaEeyxg_dx_auymQ" name="Object">
+          <modelElement href="onlineshopping.uml#_RtRCISjaEeyxg_dx_auymQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

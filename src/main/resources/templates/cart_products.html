@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Cart</title>
+</head>
+<body>
+<div align="center">
+		<h1>Cart List</h1>
+		<br/>
+		<table border="1" cellpadding="10">
+		   <thead>
+		    <tr>
+		      <th>Cart ID</th>
+		      <th>Product ID</th>
+		      <th>Action</th>
+		    </tr>
+		   </thead>
+		   <tbody>
+		      <tr th:each="cart : ${cartList}">
+		      <td th:text="${cart.cartId}">Cart ID</td> 
+		      </tr> 
+		      <tr th:each="products : ${productList}">
+		      <td th:text="${products.productId}">Product ID</td>
+		      <td>
+		      <a th:href="@{delete/{id}(id=${cart.cartId})}">Remove from cart</a>
+		      </td>
+		      </tr>
+		   </tbody> 
+	  </table>
+	</div>
+</body>
+</html>
